@@ -1,0 +1,33 @@
+{
+  "name": "futurewebsite",
+  "version": "1.0.0",
+  "description": "this is my future website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "bilel moussa",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "intl-tel-input": "^14.0.6",
+    "jquery": "^3.3.1",
+    "particlesjs": "^2.2.3",
+    "popper.js": "^1.14.6",
+    "slick-carousel": "^1.8.1"
+  }
+}
