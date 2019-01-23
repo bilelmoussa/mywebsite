@@ -31,8 +31,12 @@
             <g clip-path="url(#clip-path)">
             <path class="lo_cls-1" d="M1835.47,1024v1H1124.41l-25.71,38.75H750.472L730.684,1025h-120.6a342.075,342.075,0,0,1-214.063,75C204.919,1100,50,943.3,50,750S204.919,400,396.021,400a342.075,342.075,0,0,1,214.063,75H1211.41l127.21,60h221.81l127.73,60.247V753h151.47L2050,965.791V1024H1835.47Z"/>
             <ellipse class="lo_cls-2" cx="396" cy="749.5" rx="346" ry="349.5"/>
-
-            <ellipse id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="lo_cls-3" cx="396" cy="749.5" rx="277" ry="279.5"/>
+            <ellipse id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="lo_cls-3" cx="396" cy="749.5" rx="277" ry="279.5">
+                <animateTransform id="Ani" attributeName="transform" attributeType="xml" type="scale" from="0" to="1.5" values="0; 1.6; 0" keyTimes="0; 0.4; 1" begin="0s" dur="3s" repeatCount="indefinite" animationDirection="alternate-reverse"></animateTransform>
+                <animate attributeName="opacity"
+                values="0;0.3;0" dur="3s"
+                repeatCount="indefinite"/>   
+            </ellipse>    
             <rect class="lo_cls-4" x="780" y="1000" width="20" height="50"/>
             <rect id="Rectangle_9_copy" data-name="Rectangle 9 copy" class="lo_cls-4" x="810" y="1000" width="20" height="50"/>
             <rect id="Rectangle_9_copy_2" data-name="Rectangle 9 copy 2" class="lo_cls-4" x="840" y="1000" width="20" height="50"/>
@@ -63,7 +67,6 @@
             <text id="_90_" data-name="90 %" class="lo_cls-7" x="171" y="810">00 %</text>
         </g>
           </svg>
-          
    </div>  
    <div class="bg_blue"></div>
    <canvas class="background"></canvas>
@@ -83,22 +86,17 @@
         <span class="nav_border nav_bar11"></span>
         <span class="nav_border nav_bar12"></span>
         <svg id="x_svg" viewBox="0 0 2100 1500" preserveAspectRatio="none">
-
-            <path id="x_Rectangle_1_copy" data-name="x_Rectangle 1 copy" class="x_cls-2" d="M1279.11,555.5L849.236,974.575,819.89,944.5l429.87-419.074Z"/>
-
-            <path id="x_Rectangle_2_copy" data-name="x_Rectangle 1 copy" class="x_cls-2" d="M1279.11,555.5L849.236,974.575,819.89,944.5l429.87-419.074Z"/>
-
-            <path id="x_Rectangle_3_copy" data-name="x_Rectangle 1 copy" class="x_cls-2_str" d="M1279.11,555.5L849.236,974.575,819.89,944.5l429.87-419.074Z"/>
-
-            <path id="x_Rectangle_4_copy" data-name="x_Rectangle 1 copy" class="x_cls-2_str" d="M1279.11,555.5L849.236,974.575,819.89,944.5l429.87-419.074Z"/>
-
-            <circle class="x_cls-3" cx="1050" cy="750" r="550"/>
-
+            <svg id="cir_cls-2" ><circle class="x_cls-3" cx="1050" cy="750" r="600"/></svg>
+            <svg id="horz_1" class="hide_path"><path tranistion = "all 3s" class="x_cls-6" d="M680,500 l750, 0"/></svg>
+            <svg id="horz_4"><path id="left_s_x" class="x_cls-6" d="M780,500 l550, 500"/></svg>
+            <svg id="horz_5"><path id="right_s_x" class="x_cls-6" d="M780,1000 l550, -500"/></svg>
+            <svg id="horz_2" class="hide_path"><path class="x_cls-6" d="M680,1000 l750, 0"/></svg>
+            <svg id="horz_3" class="hide_path"><path class="x_cls-6" d="M680,750 l750, 0"/></svg>
+            <svg id="cir_cls-3"><circle class="x_cls-5" cx="1050" cy="750" r="600"/></svg>
         </svg>  
 
     <div class="section">
             <div id="nav">
-     
                     <nav>
                         <ul>
                             <li>
@@ -144,7 +142,6 @@
                 </div>
         </div>   
     </div>
-
  </div> 
   
 <script src="scripts/scripts.min.js"></script>  
