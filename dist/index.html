@@ -32,9 +32,10 @@
             <path class="lo_cls-1" d="M1835.47,1024v1H1124.41l-25.71,38.75H750.472L730.684,1025h-120.6a342.075,342.075,0,0,1-214.063,75C204.919,1100,50,943.3,50,750S204.919,400,396.021,400a342.075,342.075,0,0,1,214.063,75H1211.41l127.21,60h221.81l127.73,60.247V753h151.47L2050,965.791V1024H1835.47Z"/>
             <ellipse class="lo_cls-2" cx="396" cy="749.5" rx="346" ry="349.5"/>
             <ellipse id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="lo_cls-3" cx="396" cy="749.5" rx="277" ry="279.5">
-                <animateTransform id="Ani" attributeName="transform" attributeType="xml" type="scale" from="0" to="1.5" values="0; 1.6; 0" keyTimes="0; 0.4; 1" begin="0s" dur="3s" repeatCount="indefinite" animationDirection="alternate-reverse"></animateTransform>
+                <animateTransform id="Ani" attributeName="transform" attributeType="xml" type="scale" from="0" to="1.5" values="0; 1.6; 0" keyTimes="0; 0.4; 1" begin="0s" dur="2s" repeatCount="indefinite" ></animateTransform>
                 <animate attributeName="opacity"
-                values="0;0.3;0" dur="3s"
+                begin="0s"
+                values="0;0.3;0" dur="2s"
                 repeatCount="indefinite"/>   
             </ellipse>    
             <rect class="lo_cls-4" x="780" y="1000" width="20" height="50"/>
@@ -94,30 +95,43 @@
             <svg id="horz_3" class="hide_path"><path class="x_cls-6" d="M680,750 l750, 0"/></svg>
             <svg id="cir_cls-3"><circle class="x_cls-5" cx="1050" cy="750" r="600"/></svg>
         </svg>  
-
+        <div id="bottom_nav">
+            <div id="svg_container" class="hide_btm_nav">
+                <svg id="prev_svg" viewBox="0 0 40 40">
+                    <path class="arrow_svg" d="M0, 20 L20 34"></path>
+                    <path class="arrow_svg" d="M0,20 l40,0"></path>
+                    <path class="arrow_svg" d="M0,20 l20, -14"></path>
+                </svg>
+                <svg id="next_svg" viewBox="0 0 40 40">
+                    <path class="arrow_svg" d="M19.50,6 l20,14"></path>
+                    <path class="arrow_svg" d="M0,20 l40,0"></path>
+                    <path class="arrow_svg" d="M19.50,34 l20,-14"></path>
+                </svg>
+            </div>
+        </div>    
     <div class="section">
             <div id="nav">
                     <nav>
                         <ul>
-                            <li>
+                            <li class="nav_btn">
                                 <span class="borders_1"></span>
                                 <span class="borders_2"></span>
-                                <a href="#">about me</a>
+                                <a href="#about_me" direction="#section1">about me</a>
                             </li>
-                            <li>
+                            <li class="nav_btn">
                                 <span class="borders_1"></span>
                                 <span class="borders_2"></span>
-                                <a href="#">skills</a>
+                                <a href="#skills" direction="#section2">skills</a>
                             </li>
-                            <li>
+                            <li class="nav_btn">
                                 <span class="borders_1"></span>
                                 <span class="borders_2"></span>
-                                <a href="#">projects</a>
+                                <a href="#projects" direction="#section3">projects</a>
                             </li>
-                            <li>
+                            <li class="nav_btn">
                                 <span class="borders_1"></span>
                                 <span class="borders_2"></span>
-                                <a href="#">contact me</a>
+                                <a href="#contact_me" direction="#section4">contact me</a>
                             </li>
                         </ul>
                     </nav>
@@ -125,19 +139,16 @@
         <div id="under_section">
                 <div id="section_content">
                     <div class="sectionss hide_sectionss " id="section1">
-                        <h1>number 1</h1>
+                        <div class="container_sections"><h1>number 1</h1></div>
                     </div>
                     <div class="sectionss hide_sectionss " id="section2">
-                        <h1>number 2</h1>
+                        <div class="container_sections"><h1>number 2</h1></div>
                     </div>
                     <div class="sectionss hide_sectionss " id="section3">
-                        <h1>number 3</h1>
+                        <div class="container_sections"><h1>number 3</h1></div>
                     </div>
                     <div class="sectionss hide_sectionss " id="section4">
-                        <h1>number 4</h1>
-                    </div>
-                    <div class="sectionss hide_sectionss " id="section5">
-                        <h1>number 5</h1>
+                        <div class="container_sections"><h1>number 4</h1></div>
                     </div>
                 </div>
         </div>   
